@@ -59,10 +59,10 @@ const View: React.FC = () => {
               crossOrigin="anonymous"
             />
             <div className="absolute inset-0 flex flex-col justify-between p-4">
-              <h1 className="text-white text-3xl font-bold absolute top-4 left-1/2 transform -translate-x-1/2 shadow-lg">
+              <h1 className="text-white text-5xl font-bold absolute top-4 left-[22%] transform shadow-lg font-dmSerif">
                 Thank You
               </h1>
-              <h2 className="text-white text-xl font-bold absolute bottom-4 left-1/2 transform -translate-x-1/2 shadow-lg">
+              <h2 className="text-white text-5xl font-bold absolute bottom-4 left-1/2 transform -translate-x-1/2 shadow-lg font-dmSerif">
                 {name}
               </h2>
             </div>

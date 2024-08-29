@@ -30,9 +30,11 @@ const Personalize: React.FC = () => {
             alt="Selected"
             className="rounded w-[400px] h-[500px]"
           />
-          <div className="absolute inset-0 flex flex-col justify-between p-4">
-            <h1 className="text-white text-2xl">Thank You</h1>
-            <h2 className="text-white text-xl self-end">{name}</h2>
+          <div className="absolute inset-0 flex flex-col justify-between p-4 font-dmSerif ">
+            <h1 className="text-white  text-4xl">Thank You</h1>
+            <h2 className="text-white  text-4xl self-end font-dmSerif ">
+              {name}
+            </h2>
           </div>
         </div>
       )}
