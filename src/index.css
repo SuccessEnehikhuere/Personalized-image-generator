@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .images {
+  margin-top: var(--medium-margin);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: var(--default-spacing);
+  justify-content: center;
+  align-items: center;
+}
+
+.images .image {
+  width: 200px;
+  height: 200px;
+  justify-self: center;
+  align-self: center;
+  margin-left: 2rem;
+  border-radius: 10px;
+  transition: transform 0.5s;
+} */
